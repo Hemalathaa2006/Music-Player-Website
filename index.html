@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+    <h2>Music Player</h2>
+
+    <div class="album">
+        <!-- Embedded image (SVG – no external file needed) -->
+        <img src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+        <defs>
+        <radialGradient id='g' cx='50%' cy='50%' r='50%'>
+        <stop offset='0%' stop-color='%23ffffff'/>
+        <stop offset='100%' stop-color='%234f46e5'/>
+        </radialGradient>
+        </defs>
+        <circle cx='100' cy='100' r='100' fill='url(%23g)'/>
+        <circle cx='100' cy='100' r='20' fill='%23020617'/>
+        </svg>"
+        alt="Album">
+    </div>
+
+    <p class="song">Dream Song</p>
+    <p class="artist">Unknown Artist</p>
+
+    <div class="controls">
+        <button>⏮</button>
+        <button class="play">▶</button>
+        <button>⏭</button>
+    </div>
+</div>
+
+</body>
+</html>
